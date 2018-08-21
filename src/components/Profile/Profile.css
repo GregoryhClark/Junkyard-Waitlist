@@ -1,0 +1,17 @@
+
+.profile_textfields{
+display: flex;
+flex-direction: column;
+}
+.profile_textfields TextFields{
+  margin:10px;
+}
+.profile_paper{
+  width:75%;
+  margin-top:125px;
+  margin:auto;
+  padding:25px;
+}
+.prof_spacer{
+  height: 25px;
+}

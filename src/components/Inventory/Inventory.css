@@ -1,0 +1,59 @@
+
+  .inv_search_results_wrapper{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-bottom:25px;
+      
+      
+  }
+  .inv_search_results{
+      grid-column-start: 2;
+      
+      border-radius: 12px;
+      
+      background-color: #0E254B;
+      color:#FFDD27;
+     
+      
+  }
+  inv_search_results th{
+    padding:4px;
+  }
+  .inv_search_results td{
+    padding-left:4px;
+  }
+  .inv_search_results button{
+    margin:4px;
+    border-radius: 7px;
+    background-color: #0E254B;
+    color:#FFDD27;
+  }
+  .new_entry_form{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: 2;
+  }
+  .new_waitlist_title{
+    grid-column-start: 2;
+    margin-bottom:10px;
+  }
+  .new_selects{
+    grid-column-start: 2;
+    border-radius: 12px;
+    background-color: #0E254B;
+    color: #FFDD27;
+    margin-bottom:25px;
+  }
+  /* .inventory_body_wrapper{
+    
+  } */
+th{
+  font-weight: bold;
+}
+.oops{
+  padding:25px;
+}
+.oops a:-webkit-any-link{
+  color:#BFC4C0;
+}

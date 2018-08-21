@@ -1,0 +1,31 @@
+.waitlist_wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.waitlist_paper{
+    width: 90%;
+    margin:auto;
+    min-width:644px;
+  }
+.user_waitlist_display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background-color: #0E254B;
+    color:#FFDD27;
+    width:50%;
+    max-width:550px;
+}
+@media (max-width:820px){
+    .user_waitlist_display {
+    width:90vw;
+}
+}
+@media (max-width:450px){
+    .user_waitlist_display th, tr{
+    font-size:12px;
+}
+}

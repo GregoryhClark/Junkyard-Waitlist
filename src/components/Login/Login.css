@@ -1,0 +1,64 @@
+.login_page{
+    height: 100vh;
+    display: grid;
+    grid-template-columns:20% 60% 20%;
+    grid-template-rows: 30% 40% 10% 30%;
+    align-items: center;
+    justify-items: center;
+    /* background-color: #0E254B; */
+}
+.whatever{
+    /* background-color: #465E73; */
+    grid-column-start:2;
+    grid-row-start:2;
+    height: 100%;
+    border-radius: 14px;
+   
+}
+.logo_wrapper{
+    height: 100%;
+    background: #3f51b5;
+    border-radius: 16px;
+   
+}
+.logo_wrapper img{
+    padding:10px;
+}
+.car_logo{
+    height:100%;
+
+}
+
+.login_btn{
+
+    align-items: center;
+    justify-items: center;
+}
+.login_btn button{
+    border-radius: 7px;
+    background-color: #111C26;
+    color:#BFC4C0;
+}
+
+.login_text{
+    height: 90%;
+    grid-column-start:2;
+}
+/* .login_text h1{
+    color:#cccccc;
+} */
+.welcome_intro{
+    margin-top:35px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.login_button_wrapper{
+    grid-column-start: 2;
+    width:100%
+
+}
+.login_btn button{
+    width: 100px;
+    height: 50px;
+    font-size: 25px
+}

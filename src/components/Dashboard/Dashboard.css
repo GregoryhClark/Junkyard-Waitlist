@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ahahdlfkahs;efkha;woeifhjalioeaiowejngl;aiejg;aoierkfgnaiernken;lknj;aknjg;aorh;kenjloknglagr */
+
+  
+  /* aajhskdfawieeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+
+
+
+.dashboard_wrapper{
+  /* background-color: #cccccc; */
+  height: 100vh;
+  color:#0E254B;
+}
+button {
+    border-radius: 7px;
+    background-color: #0E254B;
+    color:#FFDD27;
+}
+
+
+
+.waitlist_invisible{
+    display:none
+}
+.waitlist_visible{
+background-color: #465E73;
+border-radius: 10px;
+padding:8px;
+}
+
+.waitlist_visible th, tbody, tr{
+  padding:15px;
+}
+/* .waitlist_visible tr{
+  padding:15px;
+  margin:65px;
+} */
+
+.dash_profile_wrapper{
+    height: 60px;
+    /* background-color: #cccccc; */
+    display: flex;
+    align-items: left;
+    
+}
+
+.the_ps{
+    display:flex;
+    flex-direction: column;
+}
+.the_ps p{
+    margin:5px;
+    color:#0E254B;
+    text-align: left;
+}
+.dash_pic{
+    height: 60px;
+    display: flex;
+    margin: auto;
+    margin-top:10px;
+    
+}
+.dash_pic img{
+    height:100%;
+    border-radius: 50%;
+    
+}
+
+
+
+
+.new_waitlist{
+  background-color: #0E254B;
+  border-radius: 10px;
+  padding:15px;
+  color:#FFDD27;
+}
+
+select{
+  background-color: #0E254B;
+  color:#FFDD27;
+}
+.dash_nav {
+    display: flex;
+    justify-content: center
+}
+
+.dash_nav p {
+    font-size: 40px;
+    
+}
+.dash_nav a {
+    text-decoration: none;
+    background-color: #3f51b5;
+    color: white;
+    margin:10px;
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash_nav a:hover {
+    /* background-color: white; */
+    /* color: #0E254B; */
+    box-shadow: 6px 6px grey;
+
+  }
+  @media (max-width:560px){
+    .dash_nav a{
+        height: 150px;
+        width:150px;
+    }
+    .dash_nav p {
+        font-size:25px;
+    }
+}

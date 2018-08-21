@@ -1,0 +1,67 @@
+.search_bar{
+  display:flex;
+  margin:50px 10px 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+select{
+  padding:5px;
+}
+
+.search_search_wrapper{
+  display: flex;
+  margin:5px;
+  justify-content: center;
+  overflow: auto;
+  margin-bottom:150px;
+}
+
+.search_search_results{
+  justify-content: center;
+  border-radius: 7px;
+  background-color: #0E254B;
+  color:#FFDD27;
+  max-height: 50vh;
+  
+}
+.search_search_results td, th{
+  padding:10px;
+  
+}
+.search_form{
+  margin-bottom:25px;
+}
+.search_header{
+  margin-top:20px;
+  font-size: 35px;
+  padding:30px;
+  
+}
+.search_paper{
+  width: 90%;
+  margin:auto;
+  min-width:670px;
+}
+@media (max-width: 400px){
+.search_bar{
+  font-size: 12px;
+  }
+  option{
+    font-size: 12px;
+  }
+  select{
+    font-size: 11px
+  }
+}
+.filter_buttons{
+  margin-bottom:15px;
+}
+.search_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.search_spacer{
+  width: 15px;
+}

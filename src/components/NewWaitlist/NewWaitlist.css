@@ -1,0 +1,26 @@
+
+
+.new_waitlist_wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.new_waitlist{
+    width: 50%;
+}
+
+.new_waitlist_options p,button{
+    margin:9px;
+}
+.new_waitlist_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .new_waitlist_spacer{
+    width: 15px;
+  }
+  .new_waitlist_title{
+    margin:25px;
+}
