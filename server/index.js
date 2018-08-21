@@ -14,6 +14,7 @@ const express = require('express')
 , cors = require('cors')
 , stripe = require('stripe')(process.env.REACT_APP_STRIPE_KEY)
 
+app.use( express.static( `${__dirname}/../build` ) );
 
 const {
     SERVER_PORT,
