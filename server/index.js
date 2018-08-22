@@ -14,7 +14,7 @@ const express = require('express')
 , cors = require('cors')
 , stripe = require('stripe')(process.env.REACT_APP_STRIPE_KEY)
 
-app.use( express.static( `${__dirname}/../build` ) );
+
 
 const {
     SERVER_PORT,
@@ -36,6 +36,7 @@ massive(CONNECTION_STRING).then(db => {
     app.set('db' ,db);
 })
 app.use(cors());
+app.use( express.static( `${__dirname}/../build` ) );
 app.use(express.static(__dirname+'/../build'));
 app.use(bodyParser.json())
 app.use(session({
